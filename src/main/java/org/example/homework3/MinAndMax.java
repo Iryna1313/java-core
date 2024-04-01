@@ -5,10 +5,10 @@ public class MinAndMax {
         int firstNumber = 5;
         int secondNumber = 9;
 
-        int max = Math.max(firstNumber, secondNumber);
-        System.out.println("Max numeric: " + max);
+        int maxValue = Math.max(firstNumber, secondNumber);
+        System.out.println("Max numeric: " + maxValue);
 
-        int min = Math.min(firstNumber, secondNumber);
-        System.out.println("Min numeric: " + min);
+        int minValue = Math.min(firstNumber, secondNumber);
+        System.out.println("Min numeric: " + minValue);
     }
 }
