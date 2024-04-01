@@ -14,7 +14,6 @@ public class ProductCostCalculator {
         double amountPayable = calculateTotalCost(unitPrice, quantity);
         System.out.println("Payable with a discount: " + amountPayable);
     }
-
     public static double calculateTotalCost(double unitPrice, int quantity) {
         double discountedAmount = unitPrice * quantity;
         if (quantity > 10 && quantity <= 20) {
